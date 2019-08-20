@@ -1,28 +1,9 @@
-<!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">Research</a></li>
-	        		<li><a href="/cv">Teaching</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:robin.belton@montana.edu">email</a></li>
-	        		<li><a href="https://github.com/robinbelton">github.com/robinbelton</a></li>
-				</ul>
-			</footer>
-		</body>
-	</html>
+---
+layout: base
+---
+
+<div class="intro-header"></div>
+
+<div role="main" class="container">
+  {{ content }}
+</div>
